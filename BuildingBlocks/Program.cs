@@ -20,7 +20,20 @@ namespace BuildingBlocks
 
             Console.WriteLine(print);
 
+            Name("Nick Buonarota");
+            Console.WriteLine(Sum(1, 2));
 
         }
+
+        static void Name(string instructor)
+        {
+            Console.WriteLine(instructor); 
+        }
+
+        static int Sum(int a, int b)
+        {
+            return a + b;
+        }
+
     }
 }
